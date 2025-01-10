@@ -1,1 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  
+.banner{
+    margin: 50px 90px  ;
+    border: 50px;
+    border-radius: 20px;
+    padding: 80px 100px 80px 100px;
+    display: flex;
+    background-color: rgb(198, 228, 214);
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.banner .banner-content{
+    margin-top: 50px;
+    width: 800px;
+    height: 310px;
+    
+}
+.banner .banner-content .title{
+font-size: 20px;
+height: 10px;
+font-weight: 400;
+line-height: 25px;
+color: rgba(14, 14, 14, 0.5);
+}
+.banner .description{
+    font-size: 40px;
+font-weight: 900;
+line-height: 45px;
+color: rgb(14, 14, 14);
+}
+.banner .banner-content button{
+font-size: 12px;
+width: 180px;
+height: 40px;
+margin: 31px 0;
+border-radius: 5px;
+border-style: none;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 106, 80);
+padding: 5px;
+}
+
 
