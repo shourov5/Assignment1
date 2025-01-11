@@ -110,7 +110,8 @@ padding: 5px;
     background-color: rgb(0, 106, 80);
 }
 .cardbox-container .cardbox2 .btn{
-    background-color:  rgb(9, 161, 92);
+    
+    background-color: rgb(9, 161, 92);
 }
 .cardbox-container .cardbox3 .btn{
     background-color: rgb(255, 194, 57);
@@ -148,4 +149,134 @@ color: rgba(14, 14, 14, 0.8);
 font-weight: 400;
 line-height: 24px;
 color: rgba(14, 14, 14, 0.6);
+}
+#card{
+    margin: 80px 100px;
+    height: 1200px;
+}
+#card h1{
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+#card p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(14, 14, 14, 0.7);
+}
+#card .card1{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+
+}
+#card .card1 .title-img{
+    margin-left: 12px;
+    border-radius: 25px;
+}
+#card .card1 .description{
+    margin: 0px 28px;
+    height: 310px;
+    justify-content: flex-start;
+align-items: flex-start;
+}
+#card .card1 .description .title{
+    font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+color: rgba(14, 14, 14, 0.8)
+}
+
+#card .card1 .description .date{
+    margin: 12px 0px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+gap: 12px;
+color: rgba(14, 14, 14, 0.7);
+}
+#card .card1 .description .time{
+    margin: 0px 12px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+color: rgba(14, 14, 14, 0.7);
+}
+#card .card1 .description p{
+    margin: 12px 0px;
+}
+#card .card1 .btn{
+    margin-top: 28px;
+width: 100px;
+height: 40px;
+border-radius: 5px;
+border-style: none;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 106, 80);
+padding: 10px;
+font-size: 14px;
+} 
+#card .card2{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+#card .card2 .description{
+    margin: 0px 28px;
+    height: 310px;
+    justify-content: flex-start;
+align-items: flex-start;
+}
+#card .card2 .description .title{
+    font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+color: rgba(14, 14, 14, 0.8)
+}
+#card .card2 .description .date{
+    margin: 12px 0px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+gap: 12px;
+color: rgba(14, 14, 14, 0.7);
+}
+#card .card2 .description .time{
+    margin: 0px 12px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+color: rgba(14, 14, 14, 0.7);
+}
+#card .card2 .description p{
+    margin: 12px 0px;
+}
+#card .card2 .btn{
+    margin-top: 28px;
+width: 100px;
+height: 40px;
+border-radius: 5px;
+border-style: none;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 106, 80);
+padding: 10px;
+font-size: 14px;
+} 
+#card .card2 .title-img{
+    margin-left: 12px;
+    border-radius: 25px;
 }
