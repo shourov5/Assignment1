@@ -152,7 +152,7 @@ color: rgba(14, 14, 14, 0.6);
 }
 #card{
     margin: 80px 100px;
-    height: 1200px;
+    height: 1000px;
 }
 #card h1{
     font-size: 40px;
@@ -279,4 +279,90 @@ font-size: 14px;
 #card .card2 .title-img{
     margin-left: 12px;
     border-radius: 25px;
+}
+#donation-box{
+    margin: 40px 100px;
+    height: 468px;
+}
+#donation-box .title{
+    font-size: 40px;
+font-weight: 680;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+color: rgb(14, 14, 14);
+}
+#donation-box .description{
+    font-size: 14px;
+font-weight: 380;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+#donation-box .flex-container{
+    display: flex;
+flex-direction: row;
+width: 800px;
+height: 90px;
+margin: 40px 160px;
+text-align: center;
+justify-content: space-between;
+align-items: center;
+line-height: 70px;
+gap: 10px;
+}
+#donation-box .flex-container .content1{
+    font-size: 25px;
+    font-weight: 700;
+border-radius: 8px;
+padding: 8px;
+background-color: rgb(198, 228, 214);
+}
+#donation-box .flex-container .content2{
+    font-size: 25px;
+    font-weight: 700;
+border-radius: 8px;
+padding: 8px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgba(255, 255, 255, 0.633);
+}
+#donation-box .flex-container .content3{
+    font-size: 25px;
+    font-weight: 700;
+border-radius: 8px;
+padding: 8px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgb(255, 255, 255);
+}
+#donation-box .flex-container .content4{
+    font-size: 25px;
+    font-weight: 700;
+border-radius: 8px;
+padding: 8px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgb(255, 255, 255);
+}
+#donation-box .Taka{
+    margin: 10px 180px;
+    width: 750px;
+height: 30px;
+padding: 5px 5px;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+outline: none;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+#donation-box .card-button{
+    margin: 32px 500px;
+    justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+border: none;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
 }
